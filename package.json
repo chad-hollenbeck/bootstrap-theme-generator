@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "sass": "^1.85.0"
   },
   "scripts": {
     "build": "sass ./src/theme.scss ./dist/theme.min.css --style=compressed"

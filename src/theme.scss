@@ -3,33 +3,6 @@
 
 // Color system
 //
-// scss-docs-start gray-color-variables
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
-// scss-docs-end gray-color-variables
-
-// scss-docs-start gray-colors-map
-$grays: (
-  "100": $gray-100,
-  "200": $gray-200,
-  "300": $gray-300,
-  "400": $gray-400,
-  "500": $gray-500,
-  "600": $gray-600,
-  "700": $gray-700,
-  "800": $gray-800,
-  "900": $gray-900
-);
-// scss-docs-end gray-colors-map
 
 // scss-docs-start color-variables
 $blue:    #0d6efd;
@@ -43,6 +16,39 @@ $green:   #198754;
 $teal:    #20c997;
 $cyan:    #0dcaf0;
 // scss-docs-end color-variables
+
+
+// scss-docs-start gray-color-variables
+$white:    #fefefe;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start theme-color-variables
+$primary:       #3B82F6     ;
+$secondary:     #EC4899  ;
+$tertiary:      #10B981     ;
+$success:       #059669;
+$info:          #0891b2;
+$warning:       #d97706;
+$danger:        #dc2626;
+$light:         #F9FAFB       ;
+$dark:          #111827        ;
+// scss-docs-end theme-color-variables
+
+
+/*~~~ Style Generation ~~~*/
+
+
+
 
 // scss-docs-start colors-map
 $colors: (
@@ -63,24 +69,28 @@ $colors: (
 );
 // scss-docs-end colors-map
 
-// scss-docs-start theme-color-variables
-$primary:       #182e65;
-$secondary:     #72460f;
-$tertiary:     #bbdc35;
-$success:       $green;
-$info:          $cyan;
-$warning:       $yellow;
-$danger:        $red;
-$light:         $gray-100;
-$dark:          $gray-900;
-// scss-docs-end theme-color-variables
+
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+// scss-docs-end gray-colors-map
+
 
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
-  "tertiary":  $tertiary,
+  "tertiary":   $tertiary,
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
